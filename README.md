@@ -40,7 +40,7 @@ git clone --depth=1 https://github.com/jasoncolburne/macbook-dev-setup.git
 5. Generate `ssh` keys.
 
 ```sh
-ssh-keygen -t ed25519 -C "your_email.your_domain.com"
+ssh-keygen -t ed25519 -C "your_email_address@domain.org"
 eval "$(ssh-agent -s)"
 echo "Host github.com" >> ~/.ssh/config
 echo "  AddKeysToAgent yes" >> ~/.ssh/config
