@@ -64,7 +64,13 @@ echo 'export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"' >> ~/.zshrc
 exec zsh
 ```
 
-8. Install project specific tools:
+8. Configure git to push new branches automatically
+
+```sh
+git config --global --add push.autoSetupRemote true
+```
+
+9. Install project specific tools:
     1. ARAD:
         Install [Docker](https://www.docker.com/products/docker-desktop/).
     2. cesride:
